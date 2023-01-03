@@ -1,3 +1,3 @@
 # mseed_suite
 
-Modules for mseed files handling and exporting
+Modules and command line tool for mseed files handling and exporting
