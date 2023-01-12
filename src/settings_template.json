@@ -1,0 +1,26 @@
+{ 
+    "ascii": [{
+                "type": "time",
+                "x_axis" : true,
+                "format" : {
+		     "x": "{:.5f}",
+		     "y": "{:.5e}"
+		},
+                "header" : true,
+                "separator" : "\t",
+                "endline" : ";\n",
+                "traces" : ["LK.SMC01.01.HNZ", "LK.SMC01.02.HNN", "LK.SMC01.02.HNZ", "LK.SMC01.00.HNE", "LK.SMC01.00.HNN", "LK.SMC01.00.HNZ"]
+              },
+              {
+       		"type": "psd",
+                "x_axis" : false,
+                "format" : {
+		     "x": "{:.5f}",
+		     "y": "{:.5e}"
+		},
+                "header" : false,
+                "separator" : "\t",
+                "endline" : ";\n",
+                "traces" : ["HI.UMAC.01.HNX", "HI.UMAC.01.HNY", "HI.UMAC.01.HNZ"]
+              }]
+}
